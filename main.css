@@ -247,12 +247,22 @@ footer ul h2 {
 
 
 
-/*Mobile screen*/
+/*Galaxy S6 or 2k display*/
 
 
-@media only screen and (max-width: 768px) {
-    body {
-    	background: green;
-    }
-    
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px)
+  and (-webkit-min-device-pixel-ratio : 4) 
+  and (-webkit-device-pixel-ratio : 4)
+  and (orientation: portrait) {
+
+
+
+	body {
+		background: green;
+	}
+
+
+
 }
